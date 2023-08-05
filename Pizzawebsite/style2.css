@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f5e1da; 
+  }
+  body {
+    background: linear-gradient(rgba(179, 67, 67, 0.5), rgba(0, 0, 0, 0.5)), url("img1/Broccoli\ pizza\ and\ pasta\ \(\ Dubai\ \).jpeg");
+  }
+  div {
+    align-items: calc(center)
+
+  }
+  .thanks-message {
+    text-align: center;
+    padding: 50px;
+    border: 2px solid #1a1a1a;
+    border-radius: 50px; 
+    background-color: #f4a9a8; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3); 
+  }
+  
+  h1 {
+    font-size: 48px; 
+    margin-bottom: 30px; 
+    color: #332222; 
+  }
+  
+  p {
+    font-size: 40px;  
+    color: #ff7766; 
+  }
+  

@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ALLTIME PIZZA</title>
+  <meta name="description" content="This week we will start using CSS">
+  <meta name="robots" content="noindex, nofollow">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <!-- section 1 -->
+  <section class="landing">
+    <div class="logo">
+      <img src="./img1/pngwing.com.png" alt="">
+    </div>
+
+    <ul class="nav">
+      <li><a href="#menu">Menu</a></li>
+      <li><a href="#order">Order</a></li>
+    </ul>
+    <h1>ALLTIME PIZZA</h1>
+  </section>
+  <!-- section2 menu -->
+  <section class="menu" id="menu">
+    <h1>MENU</h1>
+    <div class="menu-items">
+      <!-- veg -->
+      <div class="left">
+        <h2>VEG</h2>
+        <ul>
+          <li>
+            <h1>MARGHERITA PIZZA</h1>
+            <p>A classic and timeless favorite, the Margherita pizza features a thin crust topped with tangy tomato sauce, fresh basil leaves, creamy mozzarella cheese, and a drizzle of olive oil. Simple yet delicious, it's perfect for those who appreciate the beauty of minimalism.
+            </p>
+          </li>
+          <li>
+            <h1>VEGGIE SUPREME PIZZA</h1>
+            <p>Packed with a medley of colorful vegetables, the Veggie Supreme pizza bursts with flavors. The crust is generously spread with tomato sauce, then adorned with toppings such as bell peppers, onions, mushrooms, black olives, juicy tomatoes, and sweetcorn, all covered in gooey melted cheese. A wholesome treat for veggie lovers!</p>
+          </li>
+          <li>
+            <h1>SPINACH AND FETA PIZZA</h1>
+            <p>This gourmet option features a delightful combination of sautéed spinach and crumbled feta cheese on a thin crust with a garlic-infused tomato sauce. The earthy taste of spinach complements the tangy feta, providing a unique and delightful culinary experience.</p>
+          </li>
+          <li>
+            <h1>BBQ VEGGIE PIZZA</h1>
+            <p>For those who crave a smoky twist, the BBQ Veggie pizza delivers. The base is layered with barbecue sauce, topped with a mix of grilled vegetables like zucchini, eggplant, red onions, and red bell peppers, then smothered in a blend of mozzarella and cheddar cheese, leaving you with a satisfying, flavorful pizza.
+
+            </p>
+          </li>
+        </ul>
+      </div>
+      <!-- non veg -->
+      <div class="right">
+        <h2>NON VEG</h2>
+        <ul>
+          <li>
+            <h1>PEPPERONI PIZZA</h1>
+            <p>A timeless classic, Pepperoni pizza is a carnivore's delight. Featuring a traditional tomato sauce, a generous layer of mozzarella cheese, and the star of the show - savory, spicy pepperoni slices. The combination of crispy, spicy, and cheesy makes this a crowd-pleasing favorite.
+
+            </p>
+          </li>
+          <li>
+            <h1>BBQ CHICKEN PIZZA</h1>
+            <p>The BBQ Chicken pizza offers a delightful fusion of tangy barbecue sauce, tender pieces of grilled chicken, sliced red onions, and a blend of mozzarella and cheddar cheese. The smoky flavors of the barbecue sauce and the succulent chicken create a mouthwatering treat.
+
+            </p>
+          </li>
+          <li>
+            <h1>MEAT FEAST PIZZA</h1>
+            <p>For the ultimate carnivorous experience, the Meat Feast pizza is a carnivore's dream come true. This hearty delight features a tomato sauce base, layered with an assortment of delicious meat toppings such as pepperoni, Italian sausage, ham, and bacon, all smothered in melted cheese.
+
+            </p>
+          </li>
+          <li>
+            <h1>SEAFOOD DELIGHT PIZZA</h1>
+            <p>If you're a seafood lover, the Seafood Delight pizza is a must-try. The crust is topped with a creamy garlic sauce, succulent shrimp, tender pieces of crab or lobster, and a sprinkling of fresh herbs. It's a delicious blend of flavors from the sea.</p>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- section3 form -->
+  <section class="order" id="order">
+    <div class="order-form">
+      <h1>ORDER</h1>
+      <form class="form" action="index.html" method="post">
+        <br>
+        <br>
+        <h3>Choose a pizza:</h3>
+        <select id="pizza" name="pizza">
+          <option value="Margherita Pizza">Margherita Pizza</option>
+          <option value="Veggie Supreme Pizza">Veggie Supreme Pizza</option>
+          <option value="Spinach and Feta Pizza">Spinach and Feta Pizza</option>
+          <option value="BBQ Veggie Pizza">BBQ Veggie Pizza</option>
+          <option value="Pepperoni Pizza">Pepperoni Pizza</option>
+          <option value="BBQ Chicken Pizza">BBQ Chicken Pizza</option>
+          <option value="Meat Feast Pizza">Meat Feast Pizza</option>
+          <option value="Seafood Delight Pizza">Seafood Delight Pizza</option>
+        </select>
+        <h3>Select the size of pizza:</h3>
+        <label class="pizza-size">small
+          <input type="radio" checked="checked" name="radio">
+        </label>
+        <label class="pizza-size">medium
+          <input type="radio" name="radio">
+        </label>
+        <label class="pizza-size">large
+          <input type="radio" name="radio">
+        </label>
+        <h3>Select the number of pizza:</h3>
+        <select id="pizza-number" name="pizza-number">
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+          <option value="6">6</option>
+          <option value="7">7</option>
+          <option value="8">8</option>
+          <option value="9">9</option>
+
+        </select>
+        <h3>Add toppings:</h3>
+        <label class="container">pineapple
+          <input type="checkbox" checked="checked">
+          <span class="checkmark"></span>
+        </label>
+        <br>
+        <label class="container">mushroom
+          <input type="checkbox">
+          <span class="checkmark"></span>
+        </label>
+        <br>
+        <label class="container">pickle
+          <input type="checkbox">
+          <span class="checkmark"></span>
+        </label>
+        <br>
+        <label class="container">extra cheese
+          <input type="checkbox">
+          <span class="checkmark"></span>
+        </label>
+        <br>
+        <label class="container">black olives
+          <input type="checkbox">
+          <span class="checkmark"></span>
+        </label>
+        <br>
+        <label class="container">green peppers
+          <input type="checkbox">
+          <span class="checkmark"></span>
+        </label>
+        <br>
+        <label class="container">onions
+          <input type="checkbox">
+          <span class="checkmark"></span>
+        </label>
+        <br>
+        <label class="time">Preffered delivery time:
+          <input type="time" id="time" name="time" min="09:00" max="22:00" required>
+          <br>
+          Store timing - 10AM to 10PM
+        </label>
+        <br>
+        <br>
+        <br>
+        <h3>NAME:</h3>
+        <input type="text" name="name" placeholder="Name" required>
+        <br>
+        <h3>ADDRESS:</h3>
+        <input type="text" name="Address" placeholder="Address" required>
+        <br>
+        <h3>EMAIL:</h3>
+        <input type="email" name="email" placeholder="Your Email" required>
+        <br>
+        <h3>Delivery options:</h3>
+        <label class="delivery-options">Ring the bell
+          <input type="radio" checked="checked" name="radio">
+        </label>
+        <label class="delivery-options">leave at door
+          <input type="radio" name="radio">
+        </label>
+        <br>
+        <input type="submit" value="Submit" onclick="location.href='index2.html'">
+      </form>
+    </div>
+  </section>
+</body>
+
+</html>
